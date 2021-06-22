@@ -1,0 +1,322 @@
+/* montserrat-regular - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-v15-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v15-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+body{
+    margin: 0;
+}
+
+.head{
+    position: absolute;
+    width: 1519px;
+    height: 753px;
+}
+
+.head1{
+    position: absolute;
+    width: 1519px;
+    height: 756px;
+}
+
+
+#head1{
+    background-color: #B9B9B9;
+}
+
+#head2{
+    background-color: #DEDEDE;
+    margin-top: 753px;
+}
+
+#head3{
+    background-color: #B9B9B9;
+    margin-top: 1509px;
+}
+
+#head4{
+    background-color: #DEDEDE;
+    margin-top: 2265px;
+}
+
+#head5{
+    background-color: #B9B9B9;
+    margin-top: 3021px;
+}
+
+#head6{
+    background-color: #DEDEDE;
+    margin-top: 3777px;
+}
+
+#head7{
+    background-color: #B9B9B9;
+    margin-top: 4533px;
+}
+
+#head8{
+    background-color: #DEDEDE;
+    margin-top: 5289px;
+}
+
+#head9{
+    background-color: #B9B9B9;
+    margin-top: 6040px;
+}
+
+#head10{
+    background-color: #DEDEDE;
+    margin-top: 6796px;
+}
+
+#head11{
+    background-color: #B9B9B9;
+    margin-top: 7552px;
+}
+
+.button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 56px;
+}
+
+#button1{
+    background-color: #808080;
+    margin-top: 578px;
+    padding: 30px 70px;
+    font-size: 40px;
+    cursor: pointer;
+    border: 2px solid #3F3F3F;
+}
+
+ul{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    list-style-type: none;
+}
+
+p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 56px;
+    position: absolute;
+}
+
+#p1 {
+    font-size: 65px;
+    margin-top: 128px;
+}
+
+#p2{
+    font-size: 25px;
+    margin-top: 267px;
+    line-height: 36.57px;
+}
+
+#pp{
+    font-size: 35px;
+    margin-top: 267px;
+    line-height: 36.57px;
+}
+
+
+
+#p3{
+    font-size: 45px;
+    margin-top: 102px;
+    line-height: 54.86px;
+}
+
+#p4{
+    font-size: 45px;
+    margin-top: 174px;
+}
+
+#ul1{
+    margin-left: 850px;
+    margin-top: 260px;
+}
+
+#li1{
+    font-size: 35px;
+}
+
+.worthless_class{
+    font-size: 20px;
+}
+
+img{
+    position: absolute;
+}
+
+#img1{
+    margin-left: 1080px;
+    margin-top: 380px;
+}
+
+#img2{
+    margin-top: 270px;
+    margin-left: 56px;
+}
+
+#ul2{
+    margin-top: 102px;
+}
+
+.worthless_class2{
+    font-size: 25px;
+}
+
+.worthless_class3{
+    font-size: 20px;
+}
+
+.worthless_class4{
+    font-size: 45px;
+}
+
+.a1{
+    color: rgb(85, 85, 85);
+}
+
+@media (min-width: 1200px){
+    .head{
+        width: 1519px;
+        height: 753px;
+    }
+
+    .head1{
+        width: 1519px;
+        height: 756px;
+    }
+}
+
+@media (max-width: 1119px){
+    #img1{
+        opacity: 0;
+    }
+
+    #p1{
+        font-size: 75px;
+    }
+
+    #p2{
+        font-size: 33px;
+    }
+
+    .head{
+        width: 1519px;
+        height: 753px;
+    }
+
+    .head1{
+        width: 1519px;
+        height: 756px;
+    }
+}
+
+@media (max-width: 992px){
+    #p1{
+        margin-left: 380px;
+        font-size: 65px;
+    }
+
+    #p2{
+        margin-left: 220px;
+        font-size: 28px;
+    }
+
+    #button1{
+        margin-left: 475px;
+    }
+
+}
+
+@media (max-width: 768px){
+    #p1{
+        margin-left: 360px;
+        font-size: 78px;
+    }
+
+    #p2{
+        margin-left:90px;
+        font-size: 32px;
+    }
+
+    #button1{
+        margin-left: 475px;
+    }
+
+    img{
+        opacity: 0;
+    }
+
+    #ul1{
+        margin-left: 20px;
+    }
+
+    #li1{
+        font-size: 40px;
+    }
+
+    .lii{
+        font-size: 30px;
+    }
+
+    #head8{
+        width: 1519px;
+        height: 850px;
+    }
+
+    #head9{
+        margin-top: 6139px;
+    }
+
+}
+
+@media (max-width: 576px){
+    #head3, #head5, #head7, #head9, #head11{
+        width: 1519px;
+        height: 1000px;
+    }
+
+    .worthless_class4{
+        font-size: 65px;
+    }
+
+    .worthless_class2{
+        font-size: 35px;
+    }
+
+    .worthless_class3{
+        font-size: 30px;
+    }
+
+    #head4, #head5#head6, #head7{
+        top: 244px; 
+    }
+
+    #head5{
+        top: 244px;
+    }
+
+    
+    #head6, #head7{
+        top: 300px;
+    }
+
+    #head8, #head9, #head10, #head11{
+        top: 545px;
+    }
+
+}
